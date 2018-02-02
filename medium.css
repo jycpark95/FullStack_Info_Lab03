@@ -1,0 +1,18 @@
+.other-news-item {
+	/*display: inline-block;*/
+	width: 24%;
+}
+
+nav select {
+	display: none;
+}
+
+nav a {
+	color: #b3b3b3;
+	display: inline-block;
+	background: none;
+	height: 100%;
+	width: 150px;
+	margin-left: 15px;
+}
+

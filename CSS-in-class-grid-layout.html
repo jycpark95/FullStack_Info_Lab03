@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 
+<!-- DROPDOWN BUTTON MESSING UP THE NAV BAR SORRY! But did the basic work! -->
+
 <html>
 	<head>
 		<meta charset="UTF-8">
 		<title>Felines in a Grid</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="grid-style.css">
+		<link rel="stylesheet" media="(min-width: 450px)" href="medium.css">
+		<link rel="stylesheet" media="(min-width: 450px) and (max-width:950px)" href="medium2.css">
+		<!-- <link rel="stylesheet" media="(min-width: 750px)" href="medium2.css"> -->
 	</head>
 
 	<body>
@@ -16,6 +22,14 @@
 					<a href="#trending-now-container">Trending Now</a>
 					<a href="#action-and-adventure-container">Action and Advnture</a>
 					<a href="#comedies-container">Comedies</a>
+
+					<select>
+						<option selected="browse" value="browse">Browse</option>
+						<option value="#critically-acclaimed-container">Critically Acclaimed</option>
+						<option value="#trending-now-container">Trending Now</option>
+						<option value="#action-and-adventure-container">Action and Advnture</option>
+						<option value="#comedies-container">Comedies</option>
+					</select>
 			</nav>
 		</header>
 
